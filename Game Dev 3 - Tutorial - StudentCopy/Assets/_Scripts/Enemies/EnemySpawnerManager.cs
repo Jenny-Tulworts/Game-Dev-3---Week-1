@@ -16,6 +16,7 @@ public class EnemySpawnerManager : MonoBehaviour
     public void SpawnerLogic()
     {
         StartCoroutine(SpawnWave());
+        Debug.Log("FIREEEE");
     }
 
     IEnumerator SpawnWave()
